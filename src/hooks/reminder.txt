@@ -1,0 +1,2 @@
+Hook cannot be called inside of a loop.
+Hooks cannot be called inside nested function or conditions.
