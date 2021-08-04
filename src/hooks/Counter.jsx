@@ -6,11 +6,9 @@ export default function Counter(props) {
 
   return (
     <div>
-      Counter: {abc}
-      <button onClick={() => setAbc(abc + 1)}>
-        {name} has Clicked {abc} times
-      </button>
       <input type='text' onChange={(e) => setName(e.target.value)} />
+      <button onClick={() => setAbc(abc + 1)}>Click</button> <br />
+      Counter: {name} has Clicked {abc} times
     </div>
   );
 }
